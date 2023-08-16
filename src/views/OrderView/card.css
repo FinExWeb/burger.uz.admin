@@ -1,0 +1,104 @@
+.orderViewCard .card {
+    border-radius: 29px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.10);
+    max-width: 365px;
+    height: 345px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.orderViewCard .card .food-image-content img {
+    width: 135px;
+}
+
+.orderViewCard .card .food-image-content .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.orderViewCard .card .food-image-content h2 {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.orderViewCard .card .food-image-content .content h3 {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: start;
+    width: 100%;
+}
+
+.orderViewCard .card .food-order-views .buttonOrder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.food-order-views .viewAnotherOrder button {
+    border-radius: 5px;
+    border: 1px solid #89A70A;
+    background: #FFF;
+    outline: none;
+    padding: 6px 10px;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.food-order-views .orderSince {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.food-order-views .orderSince button:last-child {
+    border: none;
+    outline: none;
+    border-radius: 0 27px;
+    background: #0A9A21;
+    padding: 10px 20px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: end !important;
+
+}
+
+.orderViewCard .card .food-order-views .buttonOrder button:first-child {
+    margin: auto 0;
+}
+
+.orderViewCard .card .food-order-views .buttonOrder button {
+    margin: 5px;
+    border-radius: 5px;
+    background: #6C5FBC;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    color: #FFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 89.5vh;
+}

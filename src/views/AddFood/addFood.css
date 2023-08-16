@@ -1,0 +1,49 @@
+.Add-Food {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Add-Food .button-AddFood button {
+    border-radius: 22px;
+    background: #3D5AFE;
+    outline: none;
+    border: none;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 30px;
+    width: 280px;
+}
+
+.Add-Food .foodImages {
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.16);
+    padding: 100px;
+}
+
+.Add-Food .foodImages img {
+    width: 200px;
+    user-select: none;
+}
+
+.Add-Food .forms .inputs {
+    margin: 2.5px 50px;
+}
+
+.Add-Food .forms input {
+    outline: unset;
+    width: 278px;
+    border-radius: 22px;
+    border: 2px solid #3D5AFE;
+    background: #FFF;
+    padding: 10px;
+    margin: 2.5px 20px;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}

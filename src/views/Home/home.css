@@ -1,0 +1,19 @@
+.home-admin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    flex-direction: column;
+}
+
+.home-admin h1 {
+    font-family: sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.home-admin h2 {
+    font-family: sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
